@@ -4,7 +4,7 @@ pipeline{
     stage ('Run Docker build'){
       steps{
         script {
-          docker.build "testJenk/ui"
+          docker.build "testjenk/ui"
         }
       }
     }
